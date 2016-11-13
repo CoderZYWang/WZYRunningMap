@@ -10,4 +10,4 @@
 
 <br>
 ## 真机运行展示界面
-![image～～～](https://github.com/CoderZYWang/WZYRunningMap/blob/master/WZYRunningMap.PNG)
+![image～～～](https://github.com/CoderZYWang/WZYRunningMap/blob/master/WZYRunningMap.PNG = 500 * 600)
