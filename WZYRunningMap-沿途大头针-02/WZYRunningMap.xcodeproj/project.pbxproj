@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57BA45BD1DD6DF0200D3BC18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BA45BC1DD6DF0200D3BC18 /* main.m */; };
+		57BA45C01DD6DF0200D3BC18 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 57BA45BF1DD6DF0200D3BC18 /* AppDelegate.mm */; };
+		57BA45C31DD6DF0200D3BC18 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 57BA45C21DD6DF0200D3BC18 /* ViewController.mm */; };
+		57BA45C61DD6DF0200D3BC18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57BA45C41DD6DF0200D3BC18 /* Main.storyboard */; };
+		57BA45C81DD6DF0200D3BC18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57BA45C71DD6DF0200D3BC18 /* Assets.xcassets */; };
+		57BA45CB1DD6DF0200D3BC18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57BA45C91DD6DF0200D3BC18 /* LaunchScreen.storyboard */; };
+		57BA45D91DD6DF8600D3BC18 /* BaiduMapAPI_Base.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57BA45D21DD6DF8600D3BC18 /* BaiduMapAPI_Base.framework */; };
+		57BA45DA1DD6DF8600D3BC18 /* BaiduMapAPI_Cloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57BA45D31DD6DF8600D3BC18 /* BaiduMapAPI_Cloud.framework */; };
+		57BA45DB1DD6DF8600D3BC18 /* BaiduMapAPI_Location.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57BA45D41DD6DF8600D3BC18 /* BaiduMapAPI_Location.framework */; };
+		57BA45DC1DD6DF8600D3BC18 /* BaiduMapAPI_Map.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57BA45D51DD6DF8600D3BC18 /* BaiduMapAPI_Map.framework */; };
+		57BA45DD1DD6DF8600D3BC18 /* BaiduMapAPI_Radar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57BA45D61DD6DF8600D3BC18 /* BaiduMapAPI_Radar.framework */; };
+		57BA45DE1DD6DF8700D3BC18 /* BaiduMapAPI_Search.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57BA45D71DD6DF8600D3BC18 /* BaiduMapAPI_Search.framework */; };
+		57BA45DF1DD6DF8700D3BC18 /* BaiduMapAPI_Utils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57BA45D81DD6DF8600D3BC18 /* BaiduMapAPI_Utils.framework */; };
+		57BA45E21DD6E8E400D3BC18 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57BA45E11DD6E8E400D3BC18 /* CoreLocation.framework */; };
+		57BA45E41DD6E8ED00D3BC18 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57BA45E31DD6E8ED00D3BC18 /* QuartzCore.framework */; };
+		57BA45E61DD6E8F400D3BC18 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57BA45E51DD6E8F400D3BC18 /* OpenGLES.framework */; };
+		57BA45E81DD6E8FD00D3BC18 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57BA45E71DD6E8FD00D3BC18 /* SystemConfiguration.framework */; };
+		57BA45EA1DD6E90400D3BC18 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57BA45E91DD6E90400D3BC18 /* CoreGraphics.framework */; };
+		57BA45EC1DD6E90C00D3BC18 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57BA45EB1DD6E90C00D3BC18 /* Security.framework */; };
+		57BA45EE1DD6E91400D3BC18 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 57BA45ED1DD6E91400D3BC18 /* libsqlite3.0.tbd */; };
+		57BA45F01DD6E91C00D3BC18 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57BA45EF1DD6E91C00D3BC18 /* CoreTelephony.framework */; };
+		57BA45F21DD6E92600D3BC18 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 57BA45F11DD6E92600D3BC18 /* libstdc++.6.0.9.tbd */; };
+		57BA45F41DD6E95F00D3BC18 /* mapapi.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 57BA45F31DD6E95F00D3BC18 /* mapapi.bundle */; };
+		57E0B7791DD804B70092F436 /* WZYStateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E0B7781DD804B70092F436 /* WZYStateView.m */; };
+		57E0B77B1DD804EE0092F436 /* WZYStateView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57E0B77A1DD804EE0092F436 /* WZYStateView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		57BA45B81DD6DF0200D3BC18 /* WZYRunningMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WZYRunningMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57BA45BC1DD6DF0200D3BC18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		57BA45BE1DD6DF0200D3BC18 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		57BA45BF1DD6DF0200D3BC18 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		57BA45C11DD6DF0200D3BC18 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		57BA45C21DD6DF0200D3BC18 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		57BA45C51DD6DF0200D3BC18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57BA45C71DD6DF0200D3BC18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57BA45CA1DD6DF0200D3BC18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57BA45CC1DD6DF0200D3BC18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57BA45D21DD6DF8600D3BC18 /* BaiduMapAPI_Base.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Base.framework; sourceTree = "<group>"; };
+		57BA45D31DD6DF8600D3BC18 /* BaiduMapAPI_Cloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Cloud.framework; sourceTree = "<group>"; };
+		57BA45D41DD6DF8600D3BC18 /* BaiduMapAPI_Location.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Location.framework; sourceTree = "<group>"; };
+		57BA45D51DD6DF8600D3BC18 /* BaiduMapAPI_Map.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Map.framework; sourceTree = "<group>"; };
+		57BA45D61DD6DF8600D3BC18 /* BaiduMapAPI_Radar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Radar.framework; sourceTree = "<group>"; };
+		57BA45D71DD6DF8600D3BC18 /* BaiduMapAPI_Search.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Search.framework; sourceTree = "<group>"; };
+		57BA45D81DD6DF8600D3BC18 /* BaiduMapAPI_Utils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BaiduMapAPI_Utils.framework; sourceTree = "<group>"; };
+		57BA45E11DD6E8E400D3BC18 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		57BA45E31DD6E8ED00D3BC18 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		57BA45E51DD6E8F400D3BC18 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		57BA45E71DD6E8FD00D3BC18 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		57BA45E91DD6E90400D3BC18 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		57BA45EB1DD6E90C00D3BC18 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		57BA45ED1DD6E91400D3BC18 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		57BA45EF1DD6E91C00D3BC18 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		57BA45F11DD6E92600D3BC18 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		57BA45F31DD6E95F00D3BC18 /* mapapi.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = mapapi.bundle; sourceTree = "<group>"; };
+		57BA45F51DD6F35200D3BC18 /* WZYRunningMap.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZYRunningMap.pch; sourceTree = "<group>"; };
+		57E0B7771DD804B70092F436 /* WZYStateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZYStateView.h; sourceTree = "<group>"; };
+		57E0B7781DD804B70092F436 /* WZYStateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZYStateView.m; sourceTree = "<group>"; };
+		57E0B77A1DD804EE0092F436 /* WZYStateView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WZYStateView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57BA45B51DD6DF0200D3BC18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57BA45F21DD6E92600D3BC18 /* libstdc++.6.0.9.tbd in Frameworks */,
+				57BA45F01DD6E91C00D3BC18 /* CoreTelephony.framework in Frameworks */,
+				57BA45EE1DD6E91400D3BC18 /* libsqlite3.0.tbd in Frameworks */,
+				57BA45EC1DD6E90C00D3BC18 /* Security.framework in Frameworks */,
+				57BA45EA1DD6E90400D3BC18 /* CoreGraphics.framework in Frameworks */,
+				57BA45E81DD6E8FD00D3BC18 /* SystemConfiguration.framework in Frameworks */,
+				57BA45E61DD6E8F400D3BC18 /* OpenGLES.framework in Frameworks */,
+				57BA45E41DD6E8ED00D3BC18 /* QuartzCore.framework in Frameworks */,
+				57BA45E21DD6E8E400D3BC18 /* CoreLocation.framework in Frameworks */,
+				57BA45DA1DD6DF8600D3BC18 /* BaiduMapAPI_Cloud.framework in Frameworks */,
+				57BA45DB1DD6DF8600D3BC18 /* BaiduMapAPI_Location.framework in Frameworks */,
+				57BA45DE1DD6DF8700D3BC18 /* BaiduMapAPI_Search.framework in Frameworks */,
+				57BA45DD1DD6DF8600D3BC18 /* BaiduMapAPI_Radar.framework in Frameworks */,
+				57BA45D91DD6DF8600D3BC18 /* BaiduMapAPI_Base.framework in Frameworks */,
+				57BA45DC1DD6DF8600D3BC18 /* BaiduMapAPI_Map.framework in Frameworks */,
+				57BA45DF1DD6DF8700D3BC18 /* BaiduMapAPI_Utils.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57BA45AF1DD6DF0200D3BC18 = {
+			isa = PBXGroup;
+			children = (
+				57BA45F31DD6E95F00D3BC18 /* mapapi.bundle */,
+				57BA45D21DD6DF8600D3BC18 /* BaiduMapAPI_Base.framework */,
+				57BA45D31DD6DF8600D3BC18 /* BaiduMapAPI_Cloud.framework */,
+				57BA45D41DD6DF8600D3BC18 /* BaiduMapAPI_Location.framework */,
+				57BA45D51DD6DF8600D3BC18 /* BaiduMapAPI_Map.framework */,
+				57BA45D61DD6DF8600D3BC18 /* BaiduMapAPI_Radar.framework */,
+				57BA45D71DD6DF8600D3BC18 /* BaiduMapAPI_Search.framework */,
+				57BA45D81DD6DF8600D3BC18 /* BaiduMapAPI_Utils.framework */,
+				57BA45BA1DD6DF0200D3BC18 /* WZYRunningMap */,
+				57BA45B91DD6DF0200D3BC18 /* Products */,
+				57BA45E01DD6E8E400D3BC18 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		57BA45B91DD6DF0200D3BC18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57BA45B81DD6DF0200D3BC18 /* WZYRunningMap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57BA45BA1DD6DF0200D3BC18 /* WZYRunningMap */ = {
+			isa = PBXGroup;
+			children = (
+				57BA45BE1DD6DF0200D3BC18 /* AppDelegate.h */,
+				57BA45BF1DD6DF0200D3BC18 /* AppDelegate.mm */,
+				57BA45C11DD6DF0200D3BC18 /* ViewController.h */,
+				57BA45C21DD6DF0200D3BC18 /* ViewController.mm */,
+				57E0B7771DD804B70092F436 /* WZYStateView.h */,
+				57E0B7781DD804B70092F436 /* WZYStateView.m */,
+				57E0B77A1DD804EE0092F436 /* WZYStateView.xib */,
+				57BA45C41DD6DF0200D3BC18 /* Main.storyboard */,
+				57BA45C71DD6DF0200D3BC18 /* Assets.xcassets */,
+				57BA45C91DD6DF0200D3BC18 /* LaunchScreen.storyboard */,
+				57BA45CC1DD6DF0200D3BC18 /* Info.plist */,
+				57BA45F51DD6F35200D3BC18 /* WZYRunningMap.pch */,
+				57BA45BB1DD6DF0200D3BC18 /* Supporting Files */,
+			);
+			path = WZYRunningMap;
+			sourceTree = "<group>";
+		};
+		57BA45BB1DD6DF0200D3BC18 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57BA45BC1DD6DF0200D3BC18 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57BA45E01DD6E8E400D3BC18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57BA45F11DD6E92600D3BC18 /* libstdc++.6.0.9.tbd */,
+				57BA45EF1DD6E91C00D3BC18 /* CoreTelephony.framework */,
+				57BA45ED1DD6E91400D3BC18 /* libsqlite3.0.tbd */,
+				57BA45EB1DD6E90C00D3BC18 /* Security.framework */,
+				57BA45E91DD6E90400D3BC18 /* CoreGraphics.framework */,
+				57BA45E71DD6E8FD00D3BC18 /* SystemConfiguration.framework */,
+				57BA45E51DD6E8F400D3BC18 /* OpenGLES.framework */,
+				57BA45E31DD6E8ED00D3BC18 /* QuartzCore.framework */,
+				57BA45E11DD6E8E400D3BC18 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57BA45B71DD6DF0200D3BC18 /* WZYRunningMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57BA45CF1DD6DF0200D3BC18 /* Build configuration list for PBXNativeTarget "WZYRunningMap" */;
+			buildPhases = (
+				57BA45B41DD6DF0200D3BC18 /* Sources */,
+				57BA45B51DD6DF0200D3BC18 /* Frameworks */,
+				57BA45B61DD6DF0200D3BC18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WZYRunningMap;
+			productName = WZYRunningMap;
+			productReference = 57BA45B81DD6DF0200D3BC18 /* WZYRunningMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57BA45B01DD6DF0200D3BC18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = wzy;
+				TargetAttributes = {
+					57BA45B71DD6DF0200D3BC18 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 4UL2LK3HBV;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 57BA45B31DD6DF0200D3BC18 /* Build configuration list for PBXProject "WZYRunningMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57BA45AF1DD6DF0200D3BC18;
+			productRefGroup = 57BA45B91DD6DF0200D3BC18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57BA45B71DD6DF0200D3BC18 /* WZYRunningMap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57BA45B61DD6DF0200D3BC18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57BA45CB1DD6DF0200D3BC18 /* LaunchScreen.storyboard in Resources */,
+				57BA45F41DD6E95F00D3BC18 /* mapapi.bundle in Resources */,
+				57BA45C81DD6DF0200D3BC18 /* Assets.xcassets in Resources */,
+				57BA45C61DD6DF0200D3BC18 /* Main.storyboard in Resources */,
+				57E0B77B1DD804EE0092F436 /* WZYStateView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57BA45B41DD6DF0200D3BC18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57BA45C31DD6DF0200D3BC18 /* ViewController.mm in Sources */,
+				57BA45C01DD6DF0200D3BC18 /* AppDelegate.mm in Sources */,
+				57BA45BD1DD6DF0200D3BC18 /* main.m in Sources */,
+				57E0B7791DD804B70092F436 /* WZYStateView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		57BA45C41DD6DF0200D3BC18 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57BA45C51DD6DF0200D3BC18 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57BA45C91DD6DF0200D3BC18 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57BA45CA1DD6DF0200D3BC18 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57BA45CD1DD6DF0200D3BC18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = WZYRunningMap/WZYRunningMap.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		57BA45CE1DD6DF0200D3BC18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = WZYRunningMap/WZYRunningMap.pch;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57BA45D01DD6DF0200D3BC18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4UL2LK3HBV;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = WZYRunningMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.itcastWZY.WZYRunningMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		57BA45D11DD6DF0200D3BC18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4UL2LK3HBV;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = WZYRunningMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.itcastWZY.WZYRunningMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57BA45B31DD6DF0200D3BC18 /* Build configuration list for PBXProject "WZYRunningMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57BA45CD1DD6DF0200D3BC18 /* Debug */,
+				57BA45CE1DD6DF0200D3BC18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57BA45CF1DD6DF0200D3BC18 /* Build configuration list for PBXNativeTarget "WZYRunningMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57BA45D01DD6DF0200D3BC18 /* Debug */,
+				57BA45D11DD6DF0200D3BC18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57BA45B01DD6DF0200D3BC18 /* Project object */;
+}
